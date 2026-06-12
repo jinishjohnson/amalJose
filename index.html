@@ -643,6 +643,15 @@
       box-shadow: 0 0 10px var(--accent-glow);
     }
 
+    .group-logo {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: start;
+      gap: 10px;
+
+    }
+
     .timeline-role {
       font-family: var(--font-display);
       font-size: 1.25rem;
@@ -651,6 +660,25 @@
       margin-bottom: 6px;
       text-transform: uppercase;
       letter-spacing: 0.02em;
+    }
+
+    .bmh {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+
+    .redswan {
+      width: 75px;
+      height: 40px;
+      border-radius: 0.5rem;
+      transition: all 0.3s ease;
+
+    }
+
+    .bmh:hover .redswan:hover {
+      transform: translateY(-5px) scale(1.05);
     }
 
     .timeline-company {
@@ -1368,7 +1396,7 @@
             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         </div>
-        <div class="hero-stat-number">10+</div>
+        <div class="hero-stat-number">5+</div>
         <div class="hero-stat-label">Years Experience</div>
       </div>
       <div class="hero-stat">
@@ -1467,7 +1495,11 @@
           <span class="timeline-badge">Current Role</span>
         </div>
         <div class="timeline-role">Sales Officer</div>
-        <div class="timeline-company">Prakash Dialani Readymade Garments Trade LLC · Dubai, UAE</div>
+        <div class="group-logo">
+
+          <div class="timeline-company">Prakash Dialani Readymade Garments Trade LLC · Dubai, UAE </div>
+          <!-- <img class="bmh" src="BMH.png" alt="UAE"> -->
+        </div>
         <ul class="timeline-bullets">
           <li>Directs daily sales operations across retail and wholesale clients throughout the UAE market.</li>
           <li>Surpasses monthly targets through strategic garment promotion and tailored product recommendations.</li>
@@ -1482,7 +1514,11 @@
           <span class="timeline-badge">Operations</span>
         </div>
         <div class="timeline-role">Production Supervisor</div>
-        <div class="timeline-company">Red Swan Pizza · Saskatoon, Canada</div>
+        <div class="group-logo">
+
+          <div class="timeline-company">Red Swan Pizza · Saskatoon, Canada</div>
+          <img class="redswan" src="RedSwan.png" alt="UAE">
+        </div>
         <ul class="timeline-bullets">
           <li>Supervised production operations and managed team scheduling to maximize service efficiency.</li>
           <li>Controlled inventory, coordinated with external suppliers, and enforced health & safety standards.</li>
@@ -1497,7 +1533,11 @@
           <span class="timeline-badge">Pharma Sales</span>
         </div>
         <div class="timeline-role">Sales Manager</div>
-        <div class="timeline-company">Divine Drugs · Kannur, India</div>
+        <div class="group-logo">
+
+          <div class="timeline-company">Divine Drugs · Kannur, India</div>
+          <!-- <img class="bmh" src="BMH.png" alt="UAE"> -->
+        </div>
         <ul class="timeline-bullets">
           <li>Secured medicine orders through strategic hospital and clinic visits, expanding market presence.</li>
           <li>Liaised with procurement and pharmacy departments to streamline supply chain operations.</li>
@@ -1513,7 +1553,10 @@
           <span class="timeline-badge">Healthcare</span>
         </div>
         <div class="timeline-role">Healthcare Department Manager</div>
-        <div class="timeline-company">Baby Memorial Hospital · Kannur, India</div>
+        <div class="group-logo">
+          <div class="timeline-company">Baby Memorial Hospital · Kannur, India</div>
+          <img class="bmh" src="BMH.png" alt="UAE">
+        </div>
         <ul class="timeline-bullets">
           <li>Orchestrated daily hospital operations guaranteeing high-quality patient care and efficiency.</li>
           <li>Managed emergency response protocols and enforced strict adherence to medical safety standards.</li>
@@ -1529,7 +1572,10 @@
           <span class="timeline-badge">NGO / Social</span>
         </div>
         <div class="timeline-role">Project Support Officer</div>
-        <div class="timeline-company">Susthira NGO · Kannur, India</div>
+        <div class="group-logo">
+          <div class="timeline-company">Susthira NGO · Kannur, India</div>
+          <img class="redswan" src="susthira.png" alt="UAE">
+        </div>
         <ul class="timeline-bullets">
           <li>Spearheaded timelines and resource allocation for multidisciplinary community initiatives.</li>
           <li>Communicated project milestones to government stakeholders and community leaders.</li>
@@ -1544,7 +1590,10 @@
           <span class="timeline-badge">Healthcare</span>
         </div>
         <div class="timeline-role">Healthcare Department Manager</div>
-        <div class="timeline-company">Aster MIMS Hospital · Kannur, India</div>
+        <div class="group-logo">
+          <div class="timeline-company">Aster MIMS Hospital · Kannur, India</div>
+          <img class="redswan" src="aster.png" alt="UAE">
+        </div>
         <ul class="timeline-bullets">
           <li>Led a dedicated team of 8 staff members while ensuring strict policy compliance.</li>
           <li>Coordinated shift handovers and maintained meticulous incident documentation.</li>
